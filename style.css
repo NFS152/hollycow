@@ -1,3 +1,58 @@
-h1{
-    color: red;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.hero{
+    background-image:url('cow1.avif') ;
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero h1{
+    text-align: center;
+    font-size: 100px;
+    color: azure;
+    padding: 60px;
+    font-weight: 900;
+    font-family: cursive;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.article ,.cowtype{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 60px auto;
+    border-width: 15px;
+    border-color: yellow;
+    border-style: solid;
+    background-color: rgba(16, 249, 249, 0.777);
+    padding: 60px;
+}
+.article h2{
+    text-align: center;
+    font-size: 48px;
+    border-width: 5px;
+    border-top: 0;
+    border-left: 0 ; 
+    border-right: 0 ; 
+    border-color: yellow;
+    border-style: solid;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+}
+.article p{
+    font-size: 28px;
+    line-height: 2em;
+}
+.article p .imp{
+    font-size: 2rem;
+    background-color: yellowgreen;
+    display: inline;
+    
 }
